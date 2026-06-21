@@ -1,7 +1,7 @@
 # SYNRC 🛡️ CA
 
 [![Actions Status](https://github.com/synrc/ca/workflows/mix/badge.svg)](https://github.com/synrc/ca/actions)
-[![Hex pm](http://img.shields.io/hexpm/v/ca.svg?style=flat)](https://hex.pm/packages/ca)
+[![Hex pm](https://img.shields.io/hexpm/v/ca.svg?style=flat)](https://hex.pm/packages/ca)
 
 ![ca-shaders](https://ca.n2o.dev/priv/design/ca-shaders.png)
 
@@ -45,7 +45,7 @@ $ openssl req -passout pass:0 -new -newkey ec:<(openssl ecparam -name secp384r1)
 $ openssl cmp -cmd p10cr -server "ca.synrc.com":8829 -secret pass:0000 -ref cmptestp10cr -certout dima.pem -csr dima.csr
 ```
 
-## Publications
+## Authors
 
 * <a href="https://tonpa.guru/stream/2010/2010-10-18 LDAP.htm">2010-10-18 LDAP</a><br>
 * <a href="https://tonpa.guru/stream/2020/2020-02-03 Кваліфікований Електронний Підпис.htm">2020-02-03 Кваліфікований Електронний Підпис</a><br>
@@ -68,4 +68,4 @@ $ openssl cmp -cmd p10cr -server "ca.synrc.com":8829 -secret pass:0000 -ref cmpt
 
 ## Credits
 
-Максим Сохацький
+Максим Сохацький, Інформаційні Судові Системи
